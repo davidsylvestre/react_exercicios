@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": {},
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
+  },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
