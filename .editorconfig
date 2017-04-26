@@ -26,7 +26,7 @@ indent_size = 2
 # JavaScript - https://developer.mozilla.org/ja/docs/Web/JavaScript
 # TypeScript - https://www.typescriptlang.org/
 # CoffeeScript - http://coffeescript.org/
-[*.{js,ts,coffee}]
+[*.{js,ts,coffee,jsx}]
 indent_style = space
 indent_size = 2
 

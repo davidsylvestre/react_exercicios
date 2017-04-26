@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import Componente from './componente'
+import ClassComponent from './classComponent'
+
 
 ReactDom.render(
-    <Componente/>,
-    document.getElementById('app')
+  <div>
+  <ClassComponent value='David'/>
+  </div>,
+  document.getElementById('app')
 )
