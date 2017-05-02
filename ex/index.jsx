@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import ClassComponent from './classComponent'
+import Field from './field'
 
 
 ReactDom.render(
   <div>
-  <ClassComponent value='David'/>
+    <Field initialValue=""/>
   </div>,
   document.getElementById('app')
 )
